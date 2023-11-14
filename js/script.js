@@ -36,10 +36,13 @@ const app = createApp ({
     },
     methods: {
         goNext: function() {
-           this.activeIndex++;
+      
+         this.activeIndex++;
+
         },
         goPrev: function() {
-            this.activeIndex--;
+     
+         this.activeIndex--;
 
         }
 
